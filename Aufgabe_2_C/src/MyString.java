@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class MyString {
     private final char value[];
     public MyString(String aString) {
