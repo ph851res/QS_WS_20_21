@@ -1,0 +1,8 @@
+BoxEmptyException.class
+VendingMachine.class
+Box.class
+NotEnoughMoneyException.class
+UnlimitedCashBox.class
+FullBox.class
+CashBox.class
+VendingMachineImpl.class

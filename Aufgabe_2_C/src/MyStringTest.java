@@ -8,26 +8,34 @@ public class MyStringTest {
 
     @Test
     public void should_Be_Same_Object() {
+        //Setup
         this.myString = new MyString("testStringSameObject");
         this.anObject = myString;
 
+        //Exercise
         boolean result = anObject.equals(myString);
 
+        //Verify
         assertTrue(result);
 
+        //Teardown
         this.myString = null;
         this.anObject = null;
     }
 
     @Test
     public void should_Be_Different_Type() {
+        //Setup
         this.myString = new MyString("testStringWillDiffer");
         this.anObject = "testSrtingWillDiffer";
 
+        //Exercise
         boolean result = anObject.equals(myString);
 
+        //Verify
         assertFalse(result);
 
+        //Teardown
         this.myString = null;
         this.anObject = null;
     }

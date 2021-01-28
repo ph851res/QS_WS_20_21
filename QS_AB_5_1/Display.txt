@@ -1,0 +1,15 @@
+import org.junit.Test;
+import static org.mockito.Mockito.*;
+public class MorningCheckTest {
+     @Test
+     public void testSayHello(){
+         Display display = mock(Display.class);
+         TimeProvider timeProvider = mock(TimeProvider.class);
+         when(timeProvicer.getTime).thenReturn(15.00);
+         MorningCheck morningCheck=new;
+         MorningCheck(timeProvider,display);
+         morningCheck.sayHello();
+         verify(display.setMessage(15.00));
+        }
+    }
+}

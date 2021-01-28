@@ -1,0 +1,4 @@
+- JUnit verwendet immer den realen Code
+- Mockito verwendet biedet die Möglichkeit Test Double-Objekte zu erstellen
+- Mit Mock-Objekte kann festgelegt werden welche Methoden welchen Rückgabe zurükgeben
+- Spy-Objekte benutzten realen Code es werden Objekte von der echten Klasse ezeugt  
